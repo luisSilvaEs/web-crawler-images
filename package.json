@@ -1,0 +1,29 @@
+{
+  "name": "web-crawler-node",
+  "version": "1.0.0",
+  "description": "Crawler build in NodeJS to download images from a page or site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node --project tsconfig.json src/index.ts"
+  },
+  "keywords": [
+    "web",
+    "crawler",
+    "web",
+    "crawler",
+    "nodejs",
+    "cheerio"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^2.6.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.11"
+  }
+}
